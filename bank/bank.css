@@ -1,0 +1,199 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: black;
+    /* outline: tomato 2px solid; */
+    }
+
+body {
+    background-image: url(background.jpg);
+    min-height: 96vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    position: fixed;
+    top: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #85BB65;
+    background-color: white;
+    padding: 10px;
+    margin-left: 30px;
+    /* transition: all 0.1s ease; */
+}
+/* a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}    
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}   */
+.log {
+    font-size: 20px;
+    border: 1px solid #85BB65;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    /* transition: all 0.3s ease; */
+    background-color: #85BB65;
+    opacity: 0.8;
+}
+
+form {
+    width: 60%;
+    height: 60vh;
+    margin-top: 100px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px #85BB65; 
+    box-shadow: 5px 5px 15px 5px #85BB65;
+
+}
+.table {
+    width: 94%;
+    height: 60vh;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px #85BB65; 
+    box-shadow: 5px 5px 15px 5px #85BB65;
+
+}
+
+
+input {
+    border: 1px solid #85BB65;
+    border-radius: 3px;
+    width: 80%;
+    margin: 10px;
+    height: 30px;
+}
+
+::placeholder { 
+    color: #85BB65;
+}   
+
+button {
+    border: 2px solid #85BB65;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #375426;
+    background-color: #85BB65;
+    /* transition: all 0.3s ease; */
+ 
+   
+}
+h3 {
+    color: #375426;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-block-start: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.generate {
+    border: 2px solid #FF6700;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-spacing: 0;
+ 
+}
+.list {
+    width: 94%;
+}
+
+th, td {
+    border-bottom: 1px solid #85BB65;
+    text-align: center;
+    height: 40px;
+}
+th {
+    padding: 20px 0;
+}
+
+/* .alert {
+    color: tomato;
+    display: none;
+}
+.show {
+    display: inline-block;
+    color: tomato;
+} */
+
+.loginForm {
+    height: 40vh;
+    width: 50%;
+    margin-top: 0;
+}
+
+.loginButton {
+    margin-top: 40px;
+}
+
+.message {
+    /* display: none; */
+    background-color: rgb(142, 255, 120, 0.1);
+    padding: 10px;
+    margin: 40px;
+    border: tomato solid 2px;
+    border-radius: 5px;
+
+}
+
+.wide {
+    width: 94%;
+}
+
+.addRemove {
+    height: 60vh;
+    width: 50%;
+    margin-top: 0;
+}
+
+.delete {
+    background-color: tomato;
+}
+.newAcount {
+    width: 50%;
+    height: 40vh;
+    margin-top: 80px;
+}
+
+button .bottom {
+    margin-top: 30px;
+}
